@@ -1,0 +1,27 @@
+header{
+    display:flex;
+    background-color: #5B9676;
+    border: 5px solid #236154;
+}
+
+.logo {
+    position: fixed;
+    width: 30%;
+    height: 40%;
+    top: 52%;
+    right: 50%;
+    object-fit: contain;
+    border: 2px solid black;
+    overflow: hidden;
+    background-image: url(body-pillow.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    /* background-position: center; */
+    content: "";
+}
+
+.logo{
+    border: 5px solid black
+}
