@@ -1,27 +1,70 @@
 header{
     display:flex;
+    position:fixed;
+    right:0.020%;
+    top:-0.1%;
+    width:95.45%;
     background-color: #5B9676;
+    background-image: url(Rocky-Wall-layer.png);
     border: 5px solid #236154;
+    padding: 2%;
+}
+
+.arrow{
+    /* position: relative; */
+    width: 10px;
+    height: 8px;
 }
 
 .logo {
-    position: fixed;
-    width: 30%;
-    height: 40%;
-    top: 52%;
-    right: 50%;
-    object-fit: contain;
-    border: 2px solid black;
-    overflow: hidden;
-    background-image: url(body-pillow.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-attachment: scroll;
+    position: absolute;
+    width: 10%;
+    top: 1%;
+    right: 48%;
+    /* object-fit: contain; */
+    /* border: 12px solid black; */
+    /* overflow: hidden; */
+    /* background-image: url(body-pillow.jpg); */
+    /* background-size: cover; */
+    /* background-size: 100% 100%; */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: scroll; */
     /* background-position: center; */
-    content: "";
+    /* content: ""; */
 }
 
-.logo{
-    border: 5px solid black
+.about{
+    position: absolute;
+    left:10%;
+    top:40%;
+    background-color: #5B9676;
+    border: none;
+}
+
+.admin{
+    position: absolute;
+    left:25%;
+    top:40%;
+    background-color: #5B9676;
+    border: none;
+}
+
+.accommodations{
+    position: absolute;
+    left: 60%;
+    top:40%;
+    background-color: #5B9676;
+    border: none;
+}
+
+.more{
+    position: absolute;
+    left: 84%;
+    top:40%;
+    background-color: #5B9676;
+    border: none;
+}
+
+button:hover{
+    text-decoration: underline red;
 }
