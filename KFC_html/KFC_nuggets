@@ -9,11 +9,11 @@
 
 <body>
     <header>
-        <button class="menu">Menu</button>
-        <button class="deals">Deals</button>
-        <img class="logo" src="../images/DinoBites-Logo.png" alt="DinoBites Express logo" />
+        <button class="menu"><a href="restaurants.html">Menu</a></button>
+        <button class="deals"><a href="exclusive_deals.html">Deals</a></button>
+        <a href="home.HTML"><img class="logo" src="../images/DinoBites-Logo.png" alt="DinoBites Express logo"></a>
         <img class="search" src="../images/search-icon.png" alt="Search Icon" />
-        <img class="bag" src="../images/bag-icon.png" alt="Shopping Bag Icon" />
+        <a href="cart.html"><img class="bag" src="../images/bag-icon.png" alt="Shopping Bag Icon" /></a>
         <button class="order">Start Order</button>
     </header>
     <p><b>KFC's Nuggets</b></p>
@@ -27,7 +27,7 @@
             <p>8 pc. Nuggets Combo $10.00</p>
         </section>
     </section>
-    <img src="../images/Back button.svg" alt="back button">
+    <a href="restaurants.html"><img src="../images/Back button.svg" alt="back button"></a>
 </body>
 <footer>
     <section class="Social_Media">
