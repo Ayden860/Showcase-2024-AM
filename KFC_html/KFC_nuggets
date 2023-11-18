@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KFC Desserts</title>
+    <title>KFC Nuggets</title>
 </head>
+
 <body>
     <header>
         <button class="menu">Menu</button>
@@ -14,12 +16,15 @@
         <img class="bag" src="../images/bag-icon.png" alt="Shopping Bag Icon" />
         <button class="order">Start Order</button>
     </header>
-    <p><b>KFC's Desserts</b></p>
-    <section class="KFC_desserts">
+    <p><b>KFC's Nuggets</b></p>
+    <section class="KFC_nuggets">
         <section class="green">
-            <img src="../KFC_Images/KFC Dessert.png"
-                alt="Chocolate Chip Cake">
-                <p>Chocolate Chip Cake $10.00</p>
+            <img src="../KFC_Images/Picture for KFC/Nuggets/5 pc. Nuggets.png" alt="5 pc. Nuggets">
+            <p>5 pc. Nuggets $10.00</p>
+        </section>
+        <section class="green">
+            <img src="../KFC_Images/Picture for KFC/Drinks/Mountain Dew.png" alt="8 pc. Nuggets Combo">
+            <p>8 pc. Nuggets Combo $10.00</p>
         </section>
     </section>
     <img src="../images/Back button.svg" alt="back button">
@@ -60,4 +65,5 @@
         <p>Corporate</p>
     </section>
 </footer>
+
 </html>
