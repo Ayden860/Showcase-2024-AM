@@ -1,14 +1,44 @@
+
+.green > img {
+    max-width: 300px;
+} 
+
 .menus {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-img {
-    width: 300px;
-    height: 300px;
+section > img {
+    max-width: 330px;
 }
 
 .green {
+    display: flex;
     background-color: green;
+}
+
+.vl {
+    border-left: 6px solid black;
+    height: 300px;
+}
+
+.Social_Media img {
+    max-width: 20%;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;    
+    text-align: center;
+}
+
+footer > section {
+    width: 25%;
+}
+
+.title {
+    font-size: 20px;
+
 }
