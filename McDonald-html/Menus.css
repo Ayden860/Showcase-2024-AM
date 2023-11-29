@@ -1,27 +1,44 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-.green > img {
-    max-width: 300px;
-} 
+.green>img {
+    max-width: 100%;
+    padding-right: 12.5%;
+    text-align: end;
+}
+
+.green>p {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+}
 
 .menus {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-section > img {
-    max-width: 330px;
-}
-
 .green {
     display: flex;
-    background-color: green;
+    background-color: #5B9676;
+    padding: 0.1%;
+    padding-right: 200px;
+    margin: 1%;
+    max-width: 300px;
 }
 
 .vl {
     border-left: 6px solid black;
     height: 300px;
+}
+
+a {
+    display: flex;
+    max-width: 260px;
+    height: 70px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    margin: 5%;
 }
 
 .Social_Media img {
@@ -30,15 +47,18 @@ section > img {
 
 footer {
     display: flex;
-    flex-direction: row;    
+    flex-direction: row;
     text-align: center;
+    background-color: #5B9676;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #236154;
 }
 
-footer > section {
+footer>section {
     width: 25%;
 }
 
 .title {
     font-size: 20px;
-
 }
