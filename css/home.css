@@ -1,3 +1,10 @@
+.hinder{
+    position: absolute;
+    left:10%;
+    right:10%;
+    /* z-index: 2; */
+}
+
 header{
     display:flex;
     position:fixed;
@@ -8,6 +15,7 @@ header{
     background-image: url(Rocky-Wall-layer.png);
     border: 5px solid #236154;
     padding: 2%;
+    z-index: 1;
 }
 
 .arrow{
@@ -20,7 +28,9 @@ header{
     position: absolute;
     width: 10%;
     top: 1%;
-    right: 48%;
+    right: 45%;
+    margin-left: auto;
+    margin-right: auto;
     /* object-fit: contain; */
     /* border: 12px solid black; */
     /* overflow: hidden; */
@@ -69,14 +79,37 @@ button:hover{
     text-decoration: underline red;
 }
 
-.top{
-    background-image:image(../images/background-images);
+.tip-top{
+    background-image: url("../images/background-images.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+.dino-logo{
+    margin-top: 4%;
+    margin-bottom: 5%;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10%;
+    /* width: 50%; */
+}
+
+.images{
+    width: 1200px;
+    height: 720px;
+    flex-shrink: 0;
 }
 
 .slideshow-container {
-    width: 700px;
-    height: 500px;
+    margin-left: 10%;
+    width: 540px;
+    height: 540px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     /* background-color: #F8F8F0; */
     
     overflow: hidden;
@@ -111,8 +144,8 @@ button:hover{
 .slides > div {
     scroll-snap-align: start;
     flex-shrink: 0;
-    width: 700px;
-    height: 500px;
+    width: 540px;
+    height: 540px;
     border-radius: 10px;
     background: #eee;
     transform-origin: center center;
@@ -127,7 +160,7 @@ button:hover{
 }
 
 .slideshow-container img {
-    object-fit: contain; /*can have container/cover forces pic in border*/
+    object-fit:cover; /*can have container/cover forces pic in border*/
     position: absolute; 
     border-radius: 5px;
     top: 0;
@@ -146,6 +179,7 @@ button:hover{
 }
 /* Buttons */
 .slideshow-nav > a {
+    z-index: 2;
     display: inline-flex;
     width: 1.5rem;
     height: 1.5rem;
@@ -156,4 +190,8 @@ button:hover{
     border-radius: 5%;
     margin: 0 0.25rem;
     box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+footer{
+    position: relative;
 }
