@@ -1,4 +1,5 @@
 .hinder{
+    /* instead of position do margin */
     position: absolute;
     left:10%;
     right:10%;
