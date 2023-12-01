@@ -1,10 +1,93 @@
-header{
-    display:flex;
+header {
+    display: flex;
+    position: fixed;
+    right: 0.020%;
+    top: -0.1%;
+    width: 95.45%;
+    background-color: #5B9676;
+    border: 5px solid #236154;
+    padding: 2%;
+    z-index: 1;
+}
+
+.logo {
+    position: absolute;
+    width: 7.5%;
+    height: auto;
+    top: 1%;
+    right: 45%;
+}
+
+.bag,
+.search {
+    width: 25px;
+    height: 25px;
+}
+
+.bag {
+    position: absolute;
+    right: 14%;
+    top: 32%;
+}
+
+.search {
+    position: absolute;
+    right: 19%;
+    top: 32%;
+}
+
+.menu {
+    position: relative;
+    left: 1.5%;
+}
+
+.menu,
+.deals {
+    /* justify-content: space-between; */
+    border: none;
     background-color: #5B9676;
 }
 
-.search{
-    background-color: #5B9676;
-    width:10px;
-    width: 10px;
+.deals {
+    position: absolute;
+    left: 13%;
+    top: 36%;
 }
+
+.order {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #E61E28;
+    position: absolute;
+    /* transform: translateX(90rem); */
+    right: 5%;
+    top: 36%;
+}
+
+/* styles for button and links */
+button:hover {
+    text-decoration: underline red;
+}
+
+.order:hover {
+    text-decoration: underline black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button:active {
+    background-color: #236154;
+}
+
+a:active {
+    background-color: #236154;
+}
+
+a:hover {
+    text-decoration: underline red;
+}
+
+/* End of header */
