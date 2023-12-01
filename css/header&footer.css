@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
 header {
     display: flex;
     position: fixed;
@@ -8,6 +10,7 @@ header {
     border: 5px solid #236154;
     padding: 2%;
     z-index: 1;
+    font-family: 'Inter', sans-serif;
 }
 
 .logo {
@@ -39,6 +42,7 @@ header {
 .menu {
     position: relative;
     left: 1.5%;
+    
 }
 
 .menu,
@@ -46,6 +50,7 @@ header {
     /* justify-content: space-between; */
     border: none;
     background-color: #5B9676;
+    font-family: 'Inter', sans-serif;
 }
 
 .deals {

@@ -1,8 +1,9 @@
 .hinder{
     /* instead of position do margin */
-    position: absolute;
-    left:10%;
-    right:10%;
+    /* position: absolute; */
+    margin-left:10%;
+    margin-right:10%;
+    background-color: #F8F8F0;
     /* z-index: 2; */
 }
 
