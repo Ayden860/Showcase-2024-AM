@@ -128,6 +128,18 @@ footer>section>p{
 
 /* End of Footer CSS*/
 
+/* Start of Header HTML */
+
+/* <header>
+    <button class="menu"><a href="restaurants.html">Menu</a></button>
+    <button class="deals"><a href="exclusive_deals.html">Deals</a></button>
+    <a href="home.HTML"><img class="logo" src="../images/DinoBites-Logo.png" alt="DinoBites Express logo"></a>
+    <abbr title="search"><img class="search" src="../images/search-icon.png" alt="Search Icon" /></abbr>
+    <abbr title="shopping bag"><a href="cart.html"><img class="bag" src="../images/bag-icon.png"
+            alt="Shopping Bag Icon" /></a></abbr>
+    <button class="order">Start Order</button>
+</header> */
+
 /* Start of Footer HTML */
 
 /* <footer>
