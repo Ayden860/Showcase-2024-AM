@@ -41,6 +41,12 @@
      padding-right: 12.5%;
  }
 
+ .green>a>img {
+    max-width: 100%;
+    height: auto;
+    padding-right: 12.5%;
+}
+
  .green>p {
      text-align: center;
      font-size: 30px;
