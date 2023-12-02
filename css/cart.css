@@ -1,0 +1,30 @@
+body{
+    /* display: inline-flex; */
+}
+.left{
+    /* display: flex; */
+    margin-top: 10%;
+    margin-right: 37.7%;
+}
+.right{
+    /* display: flex */
+    margin-left: 62.2%;
+}
+
+.credit{
+    display:flex;
+}
+.together{
+    display: inline-block;
+}
+
+h1{
+    margin-bottom: 0%;
+}
+textarea{
+    max-height: 15px;
+    min-height: 15px;
+    /* max-width: 100px; This one does not work bc of other one*/
+    max-width: -webkit-fill-available;
+    margin-top: 0%;
+}
