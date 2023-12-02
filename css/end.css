@@ -111,25 +111,25 @@ body {
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-.empty{
+.empty {
     width: auto;
     height: 100px;
     border: 1px solid black;
     border: none;
 }
 
-h1{
-    display:flex;
+h1 {
+    display: flex;
     justify-content: center;
     text-align: center;
 }
 
-header{
-    display:flex;
-    position:fixed;
-    right:0.020%;
-    top:-0.1%;
-    width:95.45%;
+header {
+    display: flex;
+    position: fixed;
+    right: 0.020%;
+    top: -0.1%;
+    width: 95.45%;
     background-color: #5B9676;
     background-image: url(Rocky-Wall-layer.png);
     border: 5px solid #236154;
@@ -139,10 +139,13 @@ header{
 
 /* Touch devices don't need button navigation */
 @supports (scroll-snap-type) {
-  .slideshow-nav {
-        display: none; /* Hide the nav buttons on touch devices */
+    .slideshow-nav {
+        display: none;
+        /* Hide the nav buttons on touch devices */
     }
+
     .slides {
-      overflow-x: scroll; /* Show a scroll bar beneath slides on touch devices */
-  }
+        overflow-x: scroll;
+        /* Show a scroll bar beneath slides on touch devices */
+    }
 }
