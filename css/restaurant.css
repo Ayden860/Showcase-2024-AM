@@ -4,8 +4,9 @@ body {
     background-position: center;
     background-blend-mode: multiply;
 }
+
 /* Menu thing */
-.Full_Menu{
+.Full_Menu {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,18 +18,19 @@ body {
     /* display: inline-block; */
 }
 
-.title{
+.title_2 {
     margin-top: 2%;
     margin-left: 30%;
     /* justify-content: center; */
     align-items: center;
     display: flex;
 }
+
 /* End of menu thing */
-.hinder{
+.hinder {
     margin-top: 10%;
-    margin-left:10%;
-    margin-right:10%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .Coco_Deal {
@@ -49,15 +51,16 @@ body {
     margin-left: auto;
     margin-right: auto;
     /* background-color: #F8F8F0; */
-    
+
     overflow: hidden;
     position: relative;
-    box-shadow: 3px 5px 10px rgba(0,0,0,0.3);
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .slides {
     display: flex;
-    overflow-x: hidden; /* Hide the scroll bar beneath slides on non-touch devices */
+    overflow-x: hidden;
+    /* Hide the scroll bar beneath slides on non-touch devices */
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
@@ -79,7 +82,7 @@ body {
     background: transparent;
 }
 
-.slides > div {
+.slides>div {
     scroll-snap-align: start;
     flex-shrink: 0;
     width: 540px;
@@ -94,12 +97,13 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 100px;
-    
+
 }
 
 .slideshow-container img {
-    object-fit:cover; /*can have container/cover forces pic in border*/
-    position: absolute; 
+    object-fit: cover;
+    /*can have container/cover forces pic in border*/
+    position: absolute;
     border-radius: 5px;
     top: 0;
     left: 0;
@@ -108,15 +112,16 @@ body {
 }
 
 .slideshow-nav {
-  position: absolute;
-  z-index: 2;
-  bottom: 1rem;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
+    position: absolute;
+    z-index: 2;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
 }
+
 /* Buttons */
-.slideshow-nav > a {
+.slideshow-nav>a {
     z-index: 2;
     display: inline-flex;
     width: 1.5rem;
@@ -127,6 +132,7 @@ body {
     justify-content: center;
     border-radius: 5%;
     margin: 0 0.25rem;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
+
 /* End of carisle */

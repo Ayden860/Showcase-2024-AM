@@ -26,7 +26,7 @@
     border: 2px black solid;
     border: none;
  }
-
+/* Make a class for resturant photos but replicate it just like .green>a>img>p */
  .green {
      display: flex;
      background-color: #5B9676;
@@ -39,7 +39,6 @@
  .green>img {
      max-width: 100%;
      padding-right: 12.5%;
-     text-align: end;
  }
 
  .green>p {
