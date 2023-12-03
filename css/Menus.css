@@ -26,38 +26,26 @@
     border: 2px black solid;
     border: none;
  }
+ 
 /* Make a class for resturant photos but replicate it just like .green>a>img>p */
  .green {
      display: flex;
      background-color: #5B9676;
      padding: 0.1%;
-     padding-right: 300px;
+     padding-right: 200px;
      margin: 1%;
      max-width: 300px;
  }
 
  .green>img {
      max-width: 100%;
-     /* padding-right: 12.5%; */
+     padding-right: 12.5%;
  }
 
  .green>a>img {
-    max-width: 300px;
-    /* min-width: -webkit-fill-available; */
-    max-height: 300px;
+    max-width: 100%;
     height: auto;
-    padding-top: 1%;
-    padding-left: 1%;
     padding-right: 12.5%;
-}
-
-.center{
-    display: inline-flex;
-    flex-direction: column;
-    /* padding-left: 10%; */
-    min-width: -webkit-fill-available;
-    align-items: center;
-    justify-content: center;
 }
 
  .green>p {
