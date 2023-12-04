@@ -10,6 +10,9 @@
     margin-top: 5.5%;
     width: 62.2%;
     background-image: url("../images/background-images.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
 }
 
 .right {
@@ -131,4 +134,8 @@ textarea {
     max-width: -webkit-fill-available;
     min-width: 100px;
     margin-top: 0%;
+}
+
+@media only screen and (max-width: 640px){
+
 }

@@ -27,10 +27,24 @@ header {
     height: 25px;
 }
 
-.bag {
+/* .bag {
     position: absolute;
     right: 14%;
     top: 32%;
+} */
+
+.bag-link{
+    position: absolute;
+    right:14%;
+    top:32%;
+}
+
+#cartItemCount::before {
+    content: " (";
+}
+
+#cartItemCount::after {
+    content: ")";
 }
 
 .search {
