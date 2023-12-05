@@ -18,11 +18,12 @@
             <a href=" ../index.html"><img class="logo" src="../images/DinoBites-Logo.png"
                     alt="DinoBites Express logo" /></a>
             <img class="search" src="../images/search-icon.png" alt="Search Icon" />
-            <a class="bag-link" href="../html/cart.html"><img class="bag" src="../images/bag-icon.png" alt="Shopping Bag Icon" /><span id="cartItemCount"></span></a>
+            <a class="bag-link" href="../html/cart.html"><img class="bag" src="../images/bag-icon.png"
+                    alt="Shopping Bag Icon" /><span id="cartItemCount"></span></a>
             <button class="order">Start Order</button>
         </header>
         <section class="left">
-            <section class="order-summary">
+            <!-- <section class="order-summary">
                 <h1>Order Summary</h1>
                 <section class="same-line">
                     <p>Subtotal</p>
@@ -36,38 +37,44 @@
                     <p>Total</p>
                     <p>$110.44</p>
                 </section>
-            </section>
-            <hr>
+            </section> -->
             <section class="credit">
                 <h1>Credit Card</h1>
                 <br>
                 <section class="same-line">
                     <section class="together">
                         <h3>Card Number<h3>
-                                <textarea></textarea>
+                                <input type="text" id="card-number" name="card-number" required minlength="10"
+                                    maxlength="16" size="50" />
                     </section>
                     <section class="together">
                         <h3>Exp. Date<h3>
-                                <textarea></textarea>
+                                <input type="text" id="card-number" name="card-number" required minlength="5"
+                                    maxlength="10" size="20" />
                     </section>
                 </section>
                 <section class="same-line">
                     <section class="together">
                         <h3>Name<h3>
-                                <textarea></textarea>
+                                <input type="text" id="card-number" name="card-number" required minlength="10"
+                                    maxlength="16" size="70" />
                     </section>
                     <section class="together">
                         <h3>CVC<h3>
-                                <textarea></textarea>
+                                <input type="text" id="card-number" name="card-number" required minlength="10"
+                                    maxlength="16" size="10" />
                     </section>
                 </section>
-                <section class="together">
-                    <h3>Email<h3>
-                            <textarea></textarea>
+                <section class="indent">
+                    <section class="together">
+                        <h3>Email<h3>
+                                <input type="text" id="card-number" name="card-number" required minlength="10"
+                                    maxlength="16" size="145" />
+                    </section>
                 </section>
                 <h1>OR</h1>
-                <img class="j-pay" src="../images/Jurassic PAY (logo) 2.png" alt="Jurassic Pay Logo">
             </section>
+            <img class="j-pay" src="../images/Jurassic PAY (logo) 2.png" alt="Jurassic Pay Logo">
             <hr>
             <div class="button">
                 <button class="complete"><b>Complete Order</b></button>
@@ -77,10 +84,12 @@
         </section>
         <section class="right">
             <h1>Your cart</h1>
+            <section class="scroller">
             <div id="cart">
 
 
             </div>
+            </section>
             <!-- <section class="scroller">
                 <h1 class="right-header">Cart</h1>
                 <section>
