@@ -145,6 +145,12 @@ footer>section>p{
     height: 300px;
 }
 
+/* Start of mobile css */
+
+@media only screen and (max-width: 640px){
+
+}
+
 /* End of Footer CSS*/
 
 /* Start of Header HTML */
