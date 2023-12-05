@@ -78,3 +78,18 @@ body>a>img {
     flex-shrink: 0;
     margin: 5%;
 }
+
+.prodBtn {
+    display: block;
+    float: right;
+    background-color: white;
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    border-radius: 0.5em;
+    transition: background-color 500ms ease; 
+}
+
+.prodPrice::before {
+    content: "$ ";
+}
