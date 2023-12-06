@@ -15,7 +15,7 @@ header {
 
 .logo {
     position: absolute;
-    width: 7.5%;
+    width: 6.5%;
     height: auto;
     top: 1%;
     right: 45%;
@@ -148,7 +148,13 @@ footer>section>p{
 /* Start of mobile css */
 
 @media only screen and (max-width: 640px){
-
+    .logo {
+        position: absolute;
+        width: 10%;
+        height: auto;
+        top: 1%;
+        right: 45%;
+    }
 }
 
 /* End of Footer CSS*/
