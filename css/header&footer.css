@@ -33,10 +33,10 @@ header {
     top: 32%;
 } */
 
-.bag-link{
+.bag-link {
     position: absolute;
-    right:14%;
-    top:32%;
+    right: 14%;
+    top: 32%;
 }
 
 #cartItemCount::before {
@@ -56,7 +56,7 @@ header {
 .menu {
     position: relative;
     left: 1.5%;
-    
+
 }
 
 .menu,
@@ -131,7 +131,7 @@ footer>section {
     width: 25%;
 }
 
-footer>section>p{
+footer>section>p {
     font-size: 25px;
     font-family: 'Inter', sans-serif;
 }
@@ -147,7 +147,9 @@ footer>section>p{
 
 /* Start of mobile css */
 
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 640px) {
+
+    /* start of header */
     .logo {
         position: absolute;
         width: 10%;
@@ -155,6 +157,25 @@ footer>section>p{
         top: 1%;
         right: 45%;
     }
+
+    .bag,
+    .search {
+        width: 10px;
+        height: 10px;
+    }
+
+    .search {
+        position: absolute;
+        right: 20%;
+        top: 32%;
+    }
+
+    .bag-link {
+        position: absolute;
+        right: 15%;
+        top: 32%;
+    }
+    /* end of header */
 }
 
 /* End of Footer CSS*/
