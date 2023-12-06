@@ -8,18 +8,22 @@
     <link rel="stylesheet" href=" css/header&footer.css">
     <link rel="stylesheet" href=" css/Menus.css">
     <link rel="stylesheet" href=" css/restaurant.css">
+    <script src="../js/faux-cart.js"></script>
 </head>
 
 <body>
     <header>
-        <button class="menu"><a href="index.html">Menu</a></button>
-        <button class="deals"><a href=" html/exclusive_deals.html">Deals</a></button>
-        <a href="index.html"><img class="logo" src=" images/DinoBites-Logo.png" alt="DinoBites Express logo"></a>
-        <abbr title="search"><img class="search" src=" images/search-icon.png" alt="Search Icon" /></abbr>
-        <abbr title="shopping bag"><a href=" html/cart.html"><img class="bag" src=" images/bag-icon.png"
-                    alt="Shopping Bag Icon" /></a></abbr>
+        <button class="menu"><a href="../index.html">Menu</a></button>
+        <button class="deals"><a href="../html/exclusive_deals.html">Deals</a></button>
+        <a href=" ../index.html"><img class="logo" src="../images/DinoBites-Logo.png"
+                alt="DinoBites Express logo" /></a>
+        <img class="search" src="../images/search-icon.png" alt="Search Icon" />
+        <a class="bag-link" href="../html/cart.html"><img class="bag" src="../images/bag-icon.png"
+                alt="Shopping Bag Icon" /><span id="cartItemCount"></span></a>
         <button class="order">Start Order</button>
     </header>
+
+    <div id="cartItemCount"></div>
 
     <section class="hinder">
         <img src=" DinoBite_Images/Hot-coco-deal.png" alt="Hot Coco" class="Coco_Deal">
