@@ -50,6 +50,10 @@ function addToCart(e) {
         console.log("Error: One or more attributes are undefined, check your class names");
         return; // exit function
     }
+    if (attributes.includes('imgSrc')) {
+        attributes[3]= e.target.parentElement.parentElement.children[0].currentSrc;
+    }
+
     // check if the item is already in the cart
     for (let item of shop.cart) {
         if (item.name === attributes[0]) {
@@ -112,7 +116,6 @@ function updateCart() {
             <img src="${item.imgSrc}" alt="${item.name}">
             <div class="cartItemInfo" >
                 <h3>${item.name}</h3>
-                <p>${item.desc}</p>
                 <div class="cartItemPricing">
                     <p>Price: $${item.price.toFixed(2)}</p>
                     <p>Quantity: ${item.qty}</p>
