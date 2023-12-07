@@ -10,13 +10,21 @@
     <link rel="stylesheet" href=" css/restaurant.css">
     <script src="../js/faux-cart.js"></script>
 </head>
-
+<!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_mobile_navbar -->
 <body>
     <header>
-        <a href="javascript:void(0);" class="mobile-menu" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-        </a>
-        <!-- <div class="mobile-menu"></div> -->
+        <div class="topnav">
+            <div id="myLinks">
+                <a href="index.html">Home</a>
+                <a href="index.html">Menu</a>
+                <a href="html/exclusive_deals.html">Deals</a>
+                <a href="html/cart.html">Cart</a>
+                <a href="">Sign-In</a>
+            </div>
+            <a href="javascript:void(0);" class="mobile-menu" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
         <button class="menu"><a href="../index.html">Menu</a></button>
         <button class="deals"><a href="../html/exclusive_deals.html">Deals</a></button>
         <a href=" ../index.html"><img class="logo" src="../images/DinoBites-Logo.png"

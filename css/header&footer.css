@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+/* Mobile header */
+#myLinks{
+    display: none;
+    overflow: hidden;
+}
+/* End of Mobile header */
 header {
     display: flex;
     position: fixed;
@@ -150,6 +156,21 @@ footer>section>p {
 @media only screen and (max-width: 640px) {
 
     /* start of header */
+    .topnav{
+        /* overflow: hidden; */
+        background-color: #333;
+        position: relative;
+    }
+    .topnav a.icon {
+        position: absolute;
+        display: block;
+        left: 5%;
+        top: 1%;
+        /* background-image: url(../images/icon\ _menu.svg); */
+        width: 65px;
+        height: 65px;
+      }
+
     header {
         display: flex;
         position: fixed;
@@ -177,7 +198,7 @@ footer>section>p {
         position: absolute;
         left: 5%;
         top: 1%;
-        background-image: url(../images/icon\ _menu.svg);
+        /* background-image: url(../images/icon\ _menu.svg); */
         width: 65px;
         height: 65px;
     }
