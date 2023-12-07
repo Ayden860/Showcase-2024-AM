@@ -178,3 +178,13 @@ document.addEventListener("DOMContentLoaded", function () {
     // Log shop object to console
     console.log("Ready", shop.cart);
 });
+
+// Mobile 
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
