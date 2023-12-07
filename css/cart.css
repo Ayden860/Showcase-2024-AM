@@ -7,7 +7,7 @@
 
 .left {
     /* display: flex; */
-    margin-top: 5.5%;
+    margin-top: 5%;
     width: 62.2%;
     background-image: url("../images/background-images.png");
     background-size: cover;
@@ -17,7 +17,7 @@
 
 .right {
     /* display: flex */
-    margin-top: 5.5%;
+    margin-top: 5%;
     width: 37.7%;
     /* size:height 5px; */
     /* max-height: 50%; */
@@ -238,5 +238,12 @@ input{
         border-radius: 1.5%;
         border: 1px solid black;
         font-size:small;
+    }
+    .back{
+        width: 25%;
+        height: auto;
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-bottom: 10%;
     }
 }

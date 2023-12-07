@@ -70,7 +70,7 @@ header {
 .deals {
     position: absolute;
     left: 13%;
-    top: 36%;
+    top: 40%;
 }
 
 .order {
@@ -150,30 +150,80 @@ footer>section>p {
 @media only screen and (max-width: 640px) {
 
     /* start of header */
+    header {
+        display: flex;
+        position: fixed;
+        /* right: 0.020%; */
+        right: 0%;
+        top: -0.1%;
+        width: 95.45%;
+        height: 5%;
+        background-color: #5B9676;
+        border: 5px solid #236154;
+        padding: 2%;
+        z-index: 1;
+        font-family: 'Inter', sans-serif;
+    }
+
     .logo {
         position: absolute;
-        width: 10%;
+        width: 19%;
         height: auto;
         top: 1%;
-        right: 45%;
+        right: 40%;
+    }
+
+    .mobile-menu{
+        position: absolute;
+        left: 5%;
+        top: 1%;
+        background-image: url(../images/icon\ _menu.svg);
+        width: 65px;
+        height: 65px;
+    }
+
+    #cartItemCount{
+        display: none;
+    }
+
+    #cartItemCount::before {
+        content: " (";
+        display: none;
+    }
+    
+    #cartItemCount::after {
+        content: ")";
+        display: none;
     }
 
     .bag,
     .search {
-        width: 10px;
-        height: 10px;
+        width: 0px;
+        height: 0px;
+        display: none;
     }
 
     .search {
         position: absolute;
-        right: 20%;
+        right: 30%;
         top: 32%;
     }
 
     .bag-link {
         position: absolute;
-        right: 15%;
+        right: 25%;
         top: 32%;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .deals {
+        position: absolute;
+        left: 13%;
+        top: 28%;
+        display: none;
     }
     /* end of header */
 }
