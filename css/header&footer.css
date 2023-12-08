@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 /* Mobile header */
-#myLinks{
+.topnav #myLinks{
     display: none;
     overflow: hidden;
 }
@@ -161,15 +161,32 @@ footer>section>p {
         background-color: #333;
         position: relative;
     }
-    .topnav a.icon {
+
+    .fa{
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .topnav a {
+        /* color: white; */
+        /* padding: 14px 16px; */
+        text-decoration: none;
+        /* font-size: 17px; */
+        display: block;
+    }
+
+    /* .topnav a.icon {
         position: absolute;
         display: block;
         left: 5%;
         top: 1%;
-        /* background-image: url(../images/icon\ _menu.svg); */
+        background-image: url(../images/icon\ _menu.svg);
         width: 65px;
         height: 65px;
-      }
+    } */
 
     header {
         display: flex;
