@@ -13,6 +13,18 @@
 <body>
     <main class="flex-container">
         <header>
+            <div class="topnav">
+                <div id="myLinks">
+                    <a href="../index.html">Home</a>
+                    <a href="../index.html">Menu</a>
+                    <a href="exclusive_deals.html">Deals</a>
+                    <a href="cart.html">Cart</a>
+                    <a href="">Sign-In</a>
+                </div>
+                <a href="javascript:void(0);" class="mobile-menu" onclick="myFunction()">
+                    <i class="fa fa-bars"> </i>
+                </a>
+            </div>
             <button class="menu"><a href="../index.html">Menu</a></button>
             <button class="deals"><a href="../html/exclusive_deals.html">Deals</a></button>
             <a href=" ../index.html"><img class="logo" src="../images/DinoBites-Logo.png"
@@ -49,46 +61,48 @@
                     </section>
                     <section class="together">
                         <h3>Exp. Date<h3>
-                                <input type="text" id="exp-date" name="exp-date" required minlength="5"
-                                    maxlength="10" size="20" />
+                                <input type="text" id="exp-date" name="exp-date" required minlength="5" maxlength="10"
+                                    size="20" />
                     </section>
                 </section>
                 <section class="same-line">
                     <section class="together">
                         <h3>Name<h3>
-                                <input type="text" id="name" name="name" required minlength="10"
-                                    maxlength="16" size="70" />
+                                <input type="text" id="name" name="name" required minlength="10" maxlength="16"
+                                    size="70" />
                     </section>
                     <section class="together">
                         <h3>CVC<h3>
-                                <input type="text" id="cvc" name="cvc" required minlength="10"
-                                    maxlength="16" size="10" />
+                                <input type="text" id="cvc" name="cvc" required minlength="10" maxlength="16"
+                                    size="10" />
                     </section>
                 </section>
                 <section class="indent">
                     <section class="together">
                         <h3>Email<h3>
-                                <input type="text" id="email" name="email" required minlength="10"
-                                    maxlength="100" size="145" />
+                                <input type="text" id="email" name="email" required minlength="10" maxlength="100"
+                                    size="145" />
                     </section>
                 </section>
                 <h1>OR</h1>
             </section>
             <img class="j-pay" src="../images/Jurassic PAY (logo) 2.png" alt="Jurassic Pay Logo">
             <hr>
-            <div class="button">
-                <button class="complete"><b>Complete Order</b></button>
-            </div>
+            <a href="end.html">
+                <div class="button">
+                    <button class="complete"><b>Complete Order</b></button>
+                </div>
+            </a>
             <br>
             <a href="index.html"><img class="back" src="../images/Back button.svg" alt="back button"></a>
         </section>
         <section class="right">
             <h1>Your cart</h1>
             <section class="scroller">
-            <div id="cart">
+                <div id="cart">
 
 
-            </div>
+                </div>
             </section>
             <!-- <section class="scroller">
                 <h1 class="right-header">Cart</h1>
