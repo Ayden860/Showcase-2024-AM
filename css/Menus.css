@@ -101,20 +101,16 @@ body>a>img {
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
 }
 
-.prodImage {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 3 / 2;
-    object-fit: cover;
-}
+.prodImage {}
 
 .prodPrice::before {
     content: "$ ";
 }
 
 .prodPrice {
+    font-size: 30px;
     display: inline-block;
-    margin-top: 0.5em;
+    font-family: 'Inter', sans-serif;
 }
 
 .prodBtn,
@@ -133,6 +129,10 @@ body>a>img {
 .prodBtn:hover {
     background-color: black;
     color: yellow;
+}
+
+.prodBtn {
+    margin-top: 60px;
 }
 
 .removeBtn,
