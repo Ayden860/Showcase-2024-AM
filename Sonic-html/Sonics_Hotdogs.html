@@ -13,12 +13,25 @@
 <body>
 
     <header>
+        <div class="topnav">
+            <div id="myLinks">
+                <a href="../index.html">Home</a>
+                <a href="../index.html">Menu</a>
+                <a href="../html/exclusive_deals.html">Deals</a>
+                <a href="../html/cart.html">Cart</a>
+                <a href="">Sign-In</a>
+            </div>
+            <a href="javascript:void(0);" class="mobile-menu" onclick="myFunction()">
+                <i class="fa fa-bars"> </i>
+            </a>
+        </div>
         <button class="menu"><a href="../index.html">Menu</a></button>
         <button class="deals"><a href="../html/exclusive_deals.html">Deals</a></button>
         <a href=" ../index.html"><img class="logo" src="../images/DinoBites-Logo.png"
                 alt="DinoBites Express logo" /></a>
         <img class="search" src="../images/search-icon.png" alt="Search Icon" />
-        <a href="../html/cart.html"><img class="bag" src="../images/bag-icon.png" alt="Shopping Bag Icon" /></a>
+        <a class="bag-link" href="../html/cart.html"><img class="bag" src="../images/bag-icon.png"
+                alt="Shopping Bag Icon" /><span id="cartItemCount"></span></a>
         <button class="order">Start Order</button>
     </header>
 
@@ -31,7 +44,7 @@
 
     <section class="menus">
         <section class="green">
-            <img src="../Sonic_Images/Chili Cheese Coney.png" alt="Sonic's Chili Cheese Coney">
+            <img src="../Sonic_Images/Chili Cheese Coney.png" alt="Sonic's Chili Cheese Coney" class="prodImage">
             <section class="center">
                 <p>Chili Chesee Coney</p>
                 <span class="prodPrice">1.99</span>
@@ -39,7 +52,7 @@
             </section>
         </section>
         <section class="green">
-            <img src="../Sonic_Images/All-American Dog.png" alt="Sonic's All-American Dog">
+            <img src="../Sonic_Images/All-American Dog.png" alt="Sonic's All-American Dog" class="prodImage">
             <section class="center">
                 <p>All-American Dog</p>
                 <span class="prodPrice">1.99</span>
@@ -47,7 +60,7 @@
             </section>
         </section>
         <section class="green">
-            <img src="../Sonic_Images/Corn Dog.png" alt="Sonic's Corn Dog">
+            <img src="../Sonic_Images/Corn Dog.png" alt="Sonic's Corn Dog" class="prodImage">
             <section class="center">
                 <p>Corn Dog</p>
                 <span class="prodPrice">1.29</span>
@@ -55,7 +68,8 @@
             </section>
         </section>
         <section class="green">
-            <img src="../Sonic_Images/Footlong Quarter Pound Coney.png" alt="Sonic's Footlong Quarter Pound Corney">
+            <img src="../Sonic_Images/Footlong Quarter Pound Coney.png" alt="Sonic's Footlong Quarter Pound Corney"
+                class="prodImage">
             <section class="center">
                 <p>Footlong Quarter Pound Coney</p>
                 <span class="prodPrice">3.69</span>
