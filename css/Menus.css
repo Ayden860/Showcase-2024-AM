@@ -127,12 +127,15 @@ body>a>img {
 }
 
 .prodBtn:hover {
-    background-color: black;
-    color: yellow;
+    background-color: #f8f8f8;
+    color: black;
+    border: 2px #236154 solid;
 }
 
 .prodBtn {
     margin-top: 60px;
+    background-color: #E61E28;
+    border: 2px black solid;
 }
 
 .removeBtn,
