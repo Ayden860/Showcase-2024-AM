@@ -41,7 +41,7 @@
     margin: 0 auto;
     display: grid;
     grid-auto-rows: 25vh;
-    gap: 1em;
+    gap: 5em;
     margin-bottom: 2rem;
 }
 
@@ -252,7 +252,7 @@ input{
         margin: 0 auto;
         display: grid;
         grid-auto-rows: 25vh;
-        gap: 1em;
+        gap: 8em;
         margin-bottom: 2rem;
     }
 
