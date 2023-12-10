@@ -26,9 +26,20 @@ h1 {
 }
 
 /* Cart Items like photo and remove button */
+#cart {
+    max-width: 543px;
+    height: 700px;
+    max-height: fit-content;
+    margin: 0 auto;
+    display: grid;
+    grid-auto-rows: 25vh;
+    gap: 4em;
+    margin-bottom: 2rem;
+}
+
 #cart>.cartItem>img {
-    height: 200px;
-    width: 200px;
+    height: 100px;
+    width: 100px;
 }
 
 #cart>.cartTotal>a{
