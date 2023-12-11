@@ -17,6 +17,7 @@ body {
     border-color: #5B9676;
     height: 100%;
     padding: 1%;
+    width: 150px;
     /* display: inline-block; */
 }
 
@@ -32,6 +33,7 @@ body {
     /* justify-content: center; */
     align-items: center;
     display: flex;
+    width: fit-content;
 }
 
 /* End of menu thing */
@@ -97,6 +99,21 @@ body {
     border-style: solid;
     border-width: 8px;
     border-color: #5B9676;
+    width:fit-content;
+    margin-right: auto;
+    margin-left: 6.5%;
+ }
+
+ .bolded_2 {
+    background-color: #5B9676;
+    font-size: 30px;
+    text-align: center;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #5B9676;
+    width: 425px;
+    margin-right: auto;
+    margin-left: 9.5%;
  }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -264,5 +281,44 @@ body {
         padding-top: 1%;
         padding-left: 1%;
         padding-right: 12.5%;
+     }
+
+     .bolded_2 {
+        background-color: #5B9676;
+        font-size: 20px;
+        text-align: center;
+        border-style: solid;
+        border-width: 8px;
+        border-color: #5B9676;
+        width: 200px;
+        margin-right: auto;
+        margin-left: 0%;
+     }
+
+     .Full_Menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 27.5%;
+        background-color: #5B9676;
+        border-style: solid;
+        border-width: 8px;
+        border-color: #5B9676;
+        height: 100%;
+        padding: 1%;
+        width: 120px;
+        /* display: inline-block; */
+    }
+
+    .bolded {
+        background-color: #5B9676;
+        font-size: 20px;
+        text-align: center;
+        border-style: solid;
+        border-width: 8px;
+        border-color: #5B9676;
+        width:fit-content;
+        margin-right: auto;
+        margin-left: -3%;
      }
 }
