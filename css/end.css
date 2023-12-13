@@ -32,8 +32,8 @@ h1 {
     max-height: fit-content;
     margin: 0 auto;
     display: grid;
-    grid-auto-rows: 25vh;
-    gap: 4em;
+    grid-auto-rows: 12vh;
+    gap: 2em;
     margin-bottom: 2rem;
 }
 
