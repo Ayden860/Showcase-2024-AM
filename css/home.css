@@ -1,18 +1,18 @@
-.hinder{
+.hinder {
     /* instead of position do margin */
     /* position: absolute; */
-    margin-left:10%;
-    margin-right:10%;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: #F8F8F0;
     /* z-index: 2; */
 }
 
-header{
-    display:flex;
-    position:fixed;
-    right:0.020%;
-    top:-0.1%;
-    width:95.45%;
+header {
+    display: flex;
+    position: fixed;
+    right: 0.020%;
+    top: -0.1%;
+    width: 95.45%;
     background-color: #5B9676;
     background-image: url(Rocky-Wall-layer.png);
     border: 5px solid #236154;
@@ -20,7 +20,7 @@ header{
     z-index: 1;
 }
 
-.arrow{
+.arrow {
     /* position: relative; */
     width: 10px;
     height: 8px;
@@ -45,50 +45,50 @@ header{
     /* content: ""; */
 }
 
-.about{
+.about {
     position: absolute;
-    left:10%;
-    top:40%;
+    left: 10%;
+    top: 40%;
     background-color: #5B9676;
     border: none;
 }
 
-.admin{
+.admin {
     position: absolute;
-    left:25%;
-    top:40%;
+    left: 25%;
+    top: 40%;
     background-color: #5B9676;
     border: none;
 }
 
-.accommodations{
+.accommodations {
     position: absolute;
     left: 60%;
-    top:40%;
+    top: 40%;
     background-color: #5B9676;
     border: none;
 }
 
-.more{
+.more {
     position: absolute;
     left: 84%;
-    top:40%;
+    top: 40%;
     background-color: #5B9676;
     border: none;
 }
 
-button:hover{
+button:hover {
     text-decoration: underline red;
 }
 
-.tip-top{
+.tip-top {
     background-image: url("../images/background-images.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: multiply;
 }
 
-.dino-logo{
+.dino-logo {
     margin-top: 4%;
     margin-bottom: 5%;
     width: 30%;
@@ -99,7 +99,7 @@ button:hover{
     /* width: 50%; */
 }
 
-.images{
+.images {
     width: 1200px;
     height: 720px;
     flex-shrink: 0;
@@ -113,15 +113,16 @@ button:hover{
     margin-left: auto;
     margin-right: auto;
     /* background-color: #F8F8F0; */
-    
+
     overflow: hidden;
     position: relative;
-    box-shadow: 3px 5px 10px rgba(0,0,0,0.3);
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 .slides {
     display: flex;
-    overflow-x: hidden; /* Hide the scroll bar beneath slides on non-touch devices */
+    overflow-x: hidden;
+    /* Hide the scroll bar beneath slides on non-touch devices */
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
@@ -143,7 +144,7 @@ button:hover{
     background: transparent;
 }
 
-.slides > div {
+.slides>div {
     scroll-snap-align: start;
     flex-shrink: 0;
     width: 540px;
@@ -158,12 +159,13 @@ button:hover{
     justify-content: center;
     align-items: center;
     font-size: 100px;
-    
+
 }
 
 .slideshow-container img {
-    object-fit:cover; /*can have container/cover forces pic in border*/
-    position: absolute; 
+    object-fit: cover;
+    /*can have container/cover forces pic in border*/
+    position: absolute;
     border-radius: 5px;
     top: 0;
     left: 0;
@@ -172,15 +174,16 @@ button:hover{
 }
 
 .slideshow-nav {
-  position: absolute;
-  z-index: 2;
-  bottom: 1rem;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
+    position: absolute;
+    z-index: 2;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
 }
+
 /* Buttons */
-.slideshow-nav > a {
+.slideshow-nav>a {
     z-index: 2;
     display: inline-flex;
     width: 1.5rem;
@@ -191,9 +194,9 @@ button:hover{
     justify-content: center;
     border-radius: 5%;
     margin: 0 0.25rem;
-    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 
-footer{
+footer {
     position: relative;
 }

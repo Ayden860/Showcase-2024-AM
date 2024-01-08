@@ -20,7 +20,7 @@ h1 {
     text-align: center;
 }
 
-.scroller{
+.scroller {
     height: 500px;
     overflow-y: scroll;
 }
@@ -42,11 +42,12 @@ h1 {
     width: 100px;
 }
 
-#cart>.cartTotal>a{
+#cart>.cartTotal>a {
     display: none;
 }
 
-#cart>.cartItem>.cartItemInfo>.cartItemPricing>a{
+#cart>.cartItem>.cartItemInfo>.cartItemPricing>a {
     display: none;
 }
+
 /* End of Cart Items */

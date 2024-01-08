@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 /* Mobile header */
-.topnav #myLinks{
+.topnav #myLinks {
     display: none;
     overflow: hidden;
     width: 89vw;
@@ -9,6 +9,7 @@
     top: 66px;
     left: -8px;
 }
+
 /* End of Mobile header */
 
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -161,7 +162,7 @@ footer>section>p {
     height: 300px;
 }
 
-footer>hr{
+footer>hr {
     display: none;
 }
 
@@ -174,13 +175,13 @@ footer>hr{
 @media only screen and (max-width: 640px) {
 
     /* start of Mobile Header */
-    .topnav{
+    .topnav {
         /* overflow: hidden; */
         /* background-color: #333; */
         position: relative;
     }
 
-    .fa{
+    .fa {
         display: inline-block;
         font: normal normal normal 14px/1 FontAwesome;
         font-size: inherit;
@@ -196,13 +197,13 @@ footer>hr{
         display: block;
     }
 
-    #myLinks{
+    #myLinks {
         margin-top: 60%;
         background-color: #5B9676;
         border-left: 10px solid #236154;
         padding: 14px 16px;
         text-decoration: underline;
-        width:100%;
+        width: 100%;
     }
 
     /* .topnav a.icon {
@@ -238,7 +239,7 @@ footer>hr{
         right: 40%;
     }
 
-    .mobile-menu{
+    .mobile-menu {
         position: absolute;
         left: 5%;
         top: 1%;
@@ -247,7 +248,7 @@ footer>hr{
         height: 65px;
     }
 
-    #cartItemCount{
+    #cartItemCount {
         display: none;
     }
 
@@ -255,7 +256,7 @@ footer>hr{
         content: " (";
         display: none;
     }
-    
+
     #cartItemCount::after {
         content: ")";
         display: none;
@@ -280,7 +281,7 @@ footer>hr{
         top: 32%;
     }
 
-    .menu{
+    .menu {
         display: none;
     }
 
@@ -290,6 +291,7 @@ footer>hr{
         top: 28%;
         display: none;
     }
+
     /* end of Mobile Header */
 
     /* -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -298,7 +300,7 @@ footer>hr{
     .Social_Media img {
         max-width: 50px;
     }
-    
+
     footer {
         display: block;
         flex-direction: row;
@@ -308,27 +310,27 @@ footer>hr{
         border-width: 10px;
         border-color: #236154;
     }
-    
+
     footer>section {
         width: 100%;
     }
-    
+
     footer>section>p {
         font-size: 15px;
         font-family: 'Inter', sans-serif;
     }
-    
+
     .title {
         font-size: 20px;
     }
-    
+
     .vl {
         border-left: 6px solid black;
         height: 300px;
         display: none;
     }
 
-    footer>hr{
+    footer>hr {
         display: block;
         border: 2px solid black;
         margin-top: 10%;
