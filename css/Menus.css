@@ -12,20 +12,21 @@ body {
 
 
 .bolded {
-   background-color: #5B9676;
-   font-size: 30px;
-   text-align: center;
-   border-style: solid;
-   border-width: 8px;
-   border-color: #5B9676;
+    background-color: #5B9676;
+    font-size: 30px;
+    text-align: center;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #5B9676;
 }
 
-.empty{
-   width: 100px;
-   height: 100px;
-   border: 2px black solid;
-   border: none;
+.empty {
+    width: 100px;
+    height: 100px;
+    border: 2px black solid;
+    border: none;
 }
+
 /* Make a class for resturant photos but replicate it just like .green>a>img>p */
 .green {
     display: flex;
@@ -42,22 +43,22 @@ body {
 }
 
 .green>a>img {
-   max-width: 300px;
-   /* min-width: -webkit-fill-available; */
-   max-height: 300px;
-   height: auto;
-   padding-top: 1%;
-   padding-left: 1%;
-   padding-right: 12.5%;
+    max-width: 300px;
+    /* min-width: -webkit-fill-available; */
+    max-height: 300px;
+    height: auto;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 12.5%;
 }
 
-.center{
-   display: inline-flex;
-   flex-direction: column;
-   /* padding-left: 10%; */
-   min-width: -webkit-fill-available;
-   align-items: center;
-   justify-content: center;
+.center {
+    display: inline-flex;
+    flex-direction: column;
+    /* padding-left: 10%; */
+    min-width: -webkit-fill-available;
+    align-items: center;
+    justify-content: center;
 }
 
 .center>p {
@@ -123,7 +124,7 @@ body>a>img {
     padding: 1em;
     text-decoration: none;
     border-radius: 0.5em;
-    transition: background-color 500ms ease; 
+    transition: background-color 500ms ease;
 }
 
 .prodBtn:hover {
@@ -172,10 +173,10 @@ body>a>img {
 }
 
 .cartItem img {
-        height: auto;
-        aspect-ratio: 1 / 1;
-        object-fit: contain;
-        flex-shrink: 1;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    flex-shrink: 1;
 }
 
 .cartItem .cartItemInfo {
@@ -216,7 +217,7 @@ body>a>img {
         padding-right: 12.5%;
      } */
 
-     .green {
+    .green {
         display: flex;
         background-color: #5B9676;
         padding: 0.1%;
@@ -233,9 +234,9 @@ body>a>img {
         padding-top: 1%;
         padding-left: 1%;
         padding-right: 12.5%;
-     }
+    }
 
-     .prodBtn {
+    .prodBtn {
         margin-top: 12px;
         margin-bottom: 20px;
     }
